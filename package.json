@@ -1,0 +1,16 @@
+{
+  "name": "three-npm",
+  "version": "0.0.0",
+  "description": "Basic NPM bootstrap of Three JS",
+  "private": true,
+  "main": "null",
+  "author": "Ayaskant",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "three": "^0.109.0",
+    "three-orbitcontrols": "^2.108.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
