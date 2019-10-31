@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import _ from 'lodash';
 import * as THREE from "three";
 
@@ -14,6 +15,7 @@ var renderer = new THREE.WebGLRenderer({
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+// eslint-disable-next-line no-unused-vars
 var controls = new OrbitControls(camera, renderer.domElement);
 
 var background = new THREE.Mesh(new THREE.SphereGeometry(1000, 90, 45), new THREE.MeshBasicMaterial({
